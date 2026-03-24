@@ -174,3 +174,10 @@ Get IO from device files
 ```
 iostat -xN --human 5
 ```
+
+
+### Firewall
+Check live blocking traffic
+```
+dmesg -e -w
+```
