@@ -58,6 +58,12 @@ Convert CER to CRT
 openssl x509 -inform PEM -in <filename>.cer -out <filename>.crt
 ```
 
+Convert P12 to CRT and extract private key
+```
+openssl pkcs12 -in <filename>.p12 -out <filename>.crt -nodes
+openssl pkcs12 -in <filename>.p12 -out <filename>.key -nodes -nocerts
+```
+
 Read information from PEM
 ```
 openssl x509 -text -in <filename>.pem
