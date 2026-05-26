@@ -136,6 +136,10 @@ rename toto titi toto
 rename .htm .html *.htm
 ```
 
+Show file from the beginning
+```
+tac
+```
 ### SCP 
 Get a file with scp
 ```
