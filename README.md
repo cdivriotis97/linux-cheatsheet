@@ -130,6 +130,12 @@ Find a single file by approximate name
 find / -iname "*foo*txt" 2>/dev/null
 ```
 
+Rename files 
+```
+rename toto titi toto
+rename .htm .html *.htm
+```
+
 ### SCP 
 Get a file with scp
 ```
